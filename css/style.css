@@ -1,6 +1,7 @@
 body{
-	font-family: sans-serif;
+	font-family: 'Muli', sans-serif;
 	margin: 60px;
+	
 }
 
 .main-form{
@@ -9,7 +10,8 @@ body{
 	color: white;
 	background-color: black;
 	margin-left: 0px;
-	width: 360px;
+	width: 400px;
+	border-radius: 5px;
 }
 
 #background{
@@ -30,10 +32,36 @@ body{
 	text-align: center;
 	padding-top: 70px;
 	font-size: 30px;
+	color:#ffffff;
 	
 }
 
-.message{
+#message{
 	text-align: center;
 	padding-top: 40px;
+	color:#ffffff;
+}
+ /*button styles*/
+.button{
+	padding: 15px;
+	font-size: 15px;
+	margin: 2px;
+	border-radius: 5px;
+	color:#ffffff;
+}
+
+.pink{
+	background-color:#ff7fa3;
+}
+
+.blue{
+	background-color:#64a7f4;
+}
+
+.green{
+	background-color:#197016;
+}
+
+.purple{
+	background-color:#460784;
 }

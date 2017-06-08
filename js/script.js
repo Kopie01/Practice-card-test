@@ -3,9 +3,8 @@
 var greeting = document.getElementById("greeting");
 var image = document.getElementById("picture");
 
+
 $("#christmas").click(function(){
-	console.log("christmas");
-	console.log(greeting);
 	greeting.innerHTML = "Merry Christmas!";
 	$("#picture").attr("src", "images/christmas.jpg");
 	
@@ -44,9 +43,9 @@ $("#green").click(function(){
 	})
 
 
-$("#yellow").click(function(){
+$("#purple").click(function(){
 	console.log("yellow");
-	colour.style.backgroundColor = "#f2b141";
+	colour.style.backgroundColor = "#460784";
 	
 	})
 
@@ -74,4 +73,29 @@ $("#dotted").click(function(){
 
 // code for choosing font
 
+var font = document.getElementById("greeting");
+
+$("#handwriting").click(function(){
+	greeting.style.fontFamily = "Homemade Apple";
+	greeting.style.fontSize = "25px";
+})
+
+$("#plain").click(function(){
+	greeting.style.fontFamily = "Muli";
+})
+
+$("#cursive").click(function(){
+	greeting.style.fontFamily = "Parisienne";
+	greeting.style.fontSize = "35px";
+})
+
+$("#bold").click(function(){
+	greeting.style.fontFamily = "Fugaz One";
+})
+
+// code for changing the text in the message box
+
+$("#messageWrite").keyup(function(){
+	$('#message').text($(this).val());
+})
 

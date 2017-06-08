@@ -3,6 +3,7 @@
 <head>
 	<title>Greeting Card</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Alex+Brush|Courgette|Fugaz+One|Homemade+Apple|Leckerli+One|Muli|Parisienne" rel="stylesheet">
 </head>
 <body>
 
@@ -14,39 +15,47 @@
 	
 	<div>Choose Event
 	<br>
-		<button type="button" id="birthday">Birthday</button>
+		<button type="button" id="birthday" class="button">Birthday</button>
 
-		<button type="button" id="christmas">Christmas</button>
+		<button type="button" id="christmas" class="button">Christmas</button>
 
-		<button type="button" id="mother">Mother's Day</button>
+		<button type="button" id="mother" class="button">Mother's Day</button>
 	</div><br>
-	<div>Choose Colour
+	<div>Choose your background colour
 	<br>
-		<button type="button" id="pink">Pink</button>
+		<button type="button" id="pink" class="button pink">Pink</button>
 
-		<button type="button" id="blue">Blue</button>
+		<button type="button" id="blue" class="button blue">Blue</button>
 
-		<button type="button" id="green">Green</button>
+		<button type="button" id="green" class="button green">Green</button>
 
-		<button type="button" id="yellow">Gold</button>
+		<button type="button" id="purple" class="button purple">Purple</button>
 	</div><br>
 	<div>Choose Border
 		<br>
-		<button type="button" id="solid">_______</button>
+		<button type="button" id="solid" class="button">_______</button>
 
-		<button type="button" id="double">.........</button>
+		<button type="button" id="double" class="button">.........</button>
 
-		<button type="button" id="dotted">- - - - </button>
+		<button type="button" id="dotted" class="button">- - - - </button>
 	</div><br>
 	<div>Choose Font
 		<br>
-		<button type="button">Plain</button>
+		<button type="button" id="plain" class="button">Plain</button>
 
-		<button type="button">Calligraphic</button>
+		<button type="button" id="cursive"  class="button"> Calligraphic</button>
 
-		<button type="button">Handwriting</button>
+		<button type="button" id="handwriting" class="button">Handwriting</button>
+
+		<button type="button" id="bold" class="button">Bold</button>
 	</div><br>
-	<div>Write message</div><br>
+	<div>
+			<form autocomplete="off">
+			  Write Message<br>
+			  <input type="text" name="firstname" id="messageWrite"><br>
+			</form>
+
+	</div><br>
 
 
 </div>
@@ -55,9 +64,10 @@
 
 	<div id="background">
 		<div id="greeting">Happy Birthday!</div>
-		<div class="message">Wishing you an amazing birthday</div>
-		<div >
-			<img id="picture" src ="images/birthday.jpg"/>
+			
+		<div id="message">Your message here</div>
+		<div>
+			<img id="picture" src ="images/birthday.jpg" alt="image"/>
 		</div>
 	</div>
 

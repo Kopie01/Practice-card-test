@@ -1,0 +1,39 @@
+body{
+	font-family: sans-serif;
+	margin: 60px;
+}
+
+.main-form{
+	margin: 20px;
+	padding: 20px;
+	color: white;
+	background-color: black;
+	margin-left: 0px;
+	width: 360px;
+}
+
+#background{
+	background-color: #f2b141;
+	width: 400px;
+	height: 600px;
+}
+
+.picture img{
+	width: 400px;
+	position: relative;
+	top: 90px;
+	border-top: solid 6px white;
+	border-bottom: solid 6px white;
+}
+
+#greeting{
+	text-align: center;
+	padding-top: 70px;
+	font-size: 30px;
+	
+}
+
+.message{
+	text-align: center;
+	padding-top: 40px;
+}

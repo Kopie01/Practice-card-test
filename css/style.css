@@ -1,6 +1,8 @@
 body{
 	font-family: 'Muli', sans-serif;
 	margin: 60px;
+	display: inline-block;
+
 	
 }
 
@@ -10,14 +12,23 @@ body{
 	color: white;
 	background-color: black;
 	margin-left: 0px;
-	width: 400px;
+	width: 435px;
 	border-radius: 5px;
+	float:left;
+	
 }
 
+.card{
+	float:right;
+	position: relative;
+	top:20px;
+}
 #background{
-	background-color: #f2b141;
+	background-color: #460784;
 	width: 400px;
 	height: 600px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, .3);
 }
 
 #picture{
@@ -41,27 +52,77 @@ body{
 	padding-top: 40px;
 	color:#ffffff;
 }
+
+#messageWrite{
+	width: 350px;
+	height: 50px;
+	overflow-wrap: break-word;
+}
+ 
+
  /*button styles*/
+
 .button{
 	padding: 15px;
 	font-size: 15px;
 	margin: 2px;
 	border-radius: 5px;
 	color:#ffffff;
+	background-color:#0091f9;
+	border-color: #365bc9;
 }
 
 .pink{
-	background-color:#ff7fa3;
+	background-color:#ea106e;
+	border-color: #ea106e;
 }
 
 .blue{
-	background-color:#64a7f4;
+	background-color:#365bc9;
+	border-color: #365bc9;
 }
 
 .green{
 	background-color:#197016;
+	border-color: #197016;
 }
 
 .purple{
 	background-color:#460784;
+	border-color: #460784;
+}
+
+.plain{
+	font-family: 'Muli';
+	height: 60px;
+}
+
+.cursive{
+	font-family: 'Parisienne';
+	font-size: 20px;
+	height: 60px;
+
+}
+.handwriting{
+	font-family: 'Homemade Apple';
+	height: 60px;
+	
+}
+.bold{
+	font-family: 'Fugaz One';
+	font-size: 20px;
+	height: 60px;
+}
+
+.solid{
+	border: solid 2px white;
+}
+
+.double{
+	border: double 5px white;
+	padding: 12px;
+}
+
+.dashed{
+	border: dashed 2px white;
 }

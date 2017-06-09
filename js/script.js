@@ -25,26 +25,22 @@ $("#mother").click(function(){
 var colour = document.getElementById("background");
 
 $("#pink").click(function(){
-	console.log("pink");
-	colour.style.backgroundColor = "#ff7fa3";
+	colour.style.backgroundColor = "#ea106e";
 	
 	})
 
 $("#blue").click(function(){
-	console.log("blue");
-	colour.style.backgroundColor = "#64a7f4";
+	colour.style.backgroundColor = "#365bc9";
 	
 	})
 
 $("#green").click(function(){
-	console.log("green");
 	colour.style.backgroundColor = "#197016";
 	
 	})
 
 
 $("#purple").click(function(){
-	console.log("yellow");
 	colour.style.backgroundColor = "#460784";
 	
 	})
@@ -54,19 +50,16 @@ $("#purple").click(function(){
 var borderTop = document.getElementById("picture");
 
 $("#double").click(function(){
-	console.log("picture");
 	borderTop.style.borderTop = "double 7px white";
 	borderTop.style.borderBottom = "double 7px white";
 })
 
 $("#solid").click(function(){
-	console.log("picture");
 	borderTop.style.borderTop = "solid 6px white";
 	borderTop.style.borderBottom = "solid 6px white";
 })
 
 $("#dotted").click(function(){
-	console.log("picture");
 	borderTop.style.borderTop = "dotted 6px white";
 	borderTop.style.borderBottom = "dotted 6px white";
 })
@@ -82,6 +75,7 @@ $("#handwriting").click(function(){
 
 $("#plain").click(function(){
 	greeting.style.fontFamily = "Muli";
+	greeting.style.fontSize = "30px";
 })
 
 $("#cursive").click(function(){
@@ -91,6 +85,7 @@ $("#cursive").click(function(){
 
 $("#bold").click(function(){
 	greeting.style.fontFamily = "Fugaz One";
+	greeting.style.fontSize = "30px";
 })
 
 // code for changing the text in the message box
